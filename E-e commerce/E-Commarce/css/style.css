@@ -1,0 +1,58 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px 10px;
+}
+
+
+
+.vpsoe-bg-info{
+    background-color:#fceae8;
+}
+
+.gategories img{
+    width: 100px;
+
+}
+
+.vpsoe-btn-buy-now{
+    color: white;
+    background-image: linear-gradient(to bottom,#ff589b 0%,#ff4b92 100%);
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+}
+
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #a09d97;
+}
+
